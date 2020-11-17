@@ -1,1 +1,1 @@
-# fertifa-chat-app
+# Fertifa-chat-app
