@@ -1,0 +1,750 @@
+
+.chat {
+    float: left;
+    background: #F2F5F8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #434651;
+}
+
+.chat .chat-header img {
+    float: left;
+}
+
+.chat .chat-header .chat-about {
+    float: left;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.chat .chat-header .chat-with {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.chat .chat-header .chat-num-messages {
+    color: #92959E;
+}
+
+.chat .chat-header .fa-star {
+    float: right;
+    color: #D8DADF;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.chat .chat-history {
+    padding: 5px 20px 20px;
+    /*height: 780px;*/
+}
+
+.chat .chat-history .message-data {
+    margin-bottom: 15px;
+}
+
+.chat .chat-history .message {
+    color: white;
+    padding: 18px 20px;
+    line-height: 26px;
+    font-size: 16px;
+    width: auto;
+    position: relative;
+    max-width: calc(100% - 0px);
+    margin: -13px -15px 20px -51px;
+    float: left;
+}
+
+.chat .chat-history .my-message {
+    background: #9b8df2;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.chat .chat-history .my-message::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -12px;
+    top: 0px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #9b8df2 transparent transparent transparent;
+    border-radius: 5px;
+}
+
+.chat .chat-history .other-message {
+    background: #89C897;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.chat .chat-history .other-message::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -12px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #89C897 transparent transparent transparent;
+    border-radius: 5px;
+}
+
+.chat .chat-message textarea {
+    height: 50px;
+    font-size: 16px;
+    width: 80% !important;
+    border-radius: 50px !important;
+    padding: 13px 20px;
+    border: transparent;
+    margin-left: 12px;
+    resize: none;
+}
+
+.chat .chat-message textarea:focus {
+    outline: none;
+}
+
+.chat .chat-message .fa-file-o, .chat .chat-message .fa-file-image-o {
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.chat .chat-message button {
+    float: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    top: 35px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.online, .offline, .me {
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.online {
+    color: #86BB71;
+}
+
+.offline {
+    color: #E38968;
+}
+
+.me {
+    color: #94C2ED;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.invoice-chat-title {
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.invoice-edit-btn {
+    float: right;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 50px;
+    width: 50px;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.invoice-edit-btn:hover {
+    color: #FFFFFF;
+    background: #8675f0;
+}
+
+.invoice-chat-list {
+    padding: 10px;
+}
+
+.invoice-chat-total {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.custom-modal.modal-service .daterangepicker {
+    position: absolute;
+    box-shadow: none;
+    left: 0 !important;
+    display: block !important;
+    top: 0;
+    right: auto
+}
+
+body .custom-modal.modal-service .service-calendar {
+    position: relative;
+    margin-bottom: 70px
+}
+
+body .custom-modal.modal-service .modal-dialog {
+    min-width: 760px
+}
+
+@media (max-width: 768px) {
+    body .custom-modal.modal-service .modal-dialog {
+        min-width: auto
+    }
+}
+
+body .custom-modal.modal-service .modal-header {
+    padding: 0
+}
+
+body .custom-modal.modal-service .modal-body {
+    padding: 35px
+}
+
+body .custom-modal.modal-service .modal-body .custom-rounded-btn {
+    min-width: 175px;
+    position: absolute;
+    bottom: 0;
+    right: 15px
+}
+
+body .custom-modal.modal-service .service-title {
+    margin-bottom: 25px;
+    color: #9b8df2;
+    font-weight: 800;
+    font-size: 18px
+}
+
+body .custom-modal.modal-service .service-image {
+    margin-bottom: 28px
+}
+
+body .custom-modal.modal-service .service-image img {
+    max-width: 100%;
+    border-radius: 14px
+}
+
+body .custom-modal.modal-service .ser-desc-title {
+    color: #9d9db1;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 12px;
+    display: block
+}
+
+body .custom-modal.modal-service .service-description p {
+    font-size: 13px
+}
+
+body .custom-modal.modal-service .service-price {
+    font-weight: 700;
+    font-size: 24px;
+    color: #60996c;
+    margin-bottom: 28px
+}
+
+.custom-modal__content {
+    border-radius: 14px
+}
+
+.custom-modal__header {
+    border-bottom: none;
+    padding: 40px 10px 15px
+}
+
+.custom-modal__header .close {
+    position: absolute;
+    right: -26px;
+    top: -11px;
+    font-size: 28px;
+    color: #fff;
+    opacity: 1
+}
+
+.custom-modal__body .custom-rounded-input {
+    height: 44px;
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px
+}
+
+.custom-modal__footer {
+    border-top: none;
+    padding: 15px 20px 50px
+}
+
+.custom-modal__footer .custom-rounded-btn {
+    min-width: 175px;
+    height: 46px;
+    padding: .605rem .75rem;
+    margin: 0 15px
+}
+
+.custom-modal__title {
+    color: #3b2483;
+    font-size: 20px;
+    text-align: center;
+    width: 100%
+}
+
+.custom-modal__sub-title {
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e5e5
+}
+
+.custom-rounded-btn {
+    display: block;
+    flex: 1;
+    font-weight: 500;
+    margin: 0 10px;
+    background: #488054
+}
+
+@media (max-width: 768px) {
+    body .login-container .splash-content__buttons .custom-rounded-btn {
+        margin-bottom: 20px
+    }
+}
+
+body .login-container .splash-content__buttons .custom-rounded-btn:hover {
+    text-decoration: none
+}
+
+.custom-rounded-btn {
+    color: #9d9db1;
+    border: 2px solid rgba(157, 157, 177, .31)
+}
+
+body .alert.light-grey button.close {
+    height: 54px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 1;
+    color: #9d9db1
+}
+
+body .alert.purple {
+    background-color: rgba(155, 141, 242, .5);
+    color: #fff
+}
+
+body .alert.purple .custom-rounded-btn {
+    color: #fff;
+    border: 2px solid #fff
+}
+
+body .alert.purple button.close {
+    height: 54px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 1;
+    color: #fff
+}
+
+@media (max-width: 768px) {
+    body .alert.purple button.close {
+        bottom: auto
+    }
+}
+
+body .alert p {
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-weight: 800;
+    font-size: 15px
+}
+
+body .alert p span {
+    font-weight: 400;
+    display: block
+}
+
+body .alert .custom-rounded-btn {
+    white-space: nowrap;
+    background: transparent;
+    height: 40px;
+    font-size: 12px;
+    padding: .585rem .75rem;
+    min-width: 150px;
+    margin-bottom: 0;
+    margin-left: auto
+}
+
+@media (max-width: 768px) {
+    body .user-book-benef-block {
+        display: block !important
+    }
+}
+
+.custom-rounded-btn {
+    min-width: 175px;
+    position: absolute;
+    bottom: 0;
+    right: 15px
+}
+
+body .custom-modal.modal-service .service-title {
+    margin-bottom: 25px;
+    color: #9b8df2;
+    font-weight: 800;
+    font-size: 18px
+}
+
+body .custom-modal.modal-service .service-image {
+    margin-bottom: 28px
+}
+
+body .custom-modal.modal-service .service-image img {
+    max-width: 100%;
+    border-radius: 14px
+}
+
+body .custom-modal.modal-service .ser-desc-title {
+    color: #9d9db1;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 12px;
+    display: block
+}
+
+body .custom-modal.modal-service .service-description p {
+    font-size: 13px
+}
+
+body .custom-modal.modal-service .service-price {
+    font-weight: 700;
+    font-size: 24px;
+    color: #60996c;
+    margin-bottom: 28px
+}
+
+body .employees-tracker-total {
+    background: #9b8df2;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+    margin-bottom: 48px;
+    margin-top: 48px
+}
+
+body .employees-tracker-total__info {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 15px
+}
+
+body .employees-tracker-total__info li {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between
+}
+
+body .employees-tracker-total__info li:last-child {
+    font-weight: 800;
+    margin-bottom: 0
+}
+
+body .employees-tracker-total__info li span {
+    margin-left: auto;
+    text-align: right
+}
+
+body .employees-tracker-total__info li span:last-child {
+    width: 50px;
+    margin-left: 0
+}
+
+body .employees-tracker-total .card-body {
+    padding: 1.85rem
+}
+
+body .group-invitation-text {
+    font-weight: 800;
+    font-size: 13px;
+    text-align: center;
+    color: #292c49;
+    padding: 0 40px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    max-width: 315px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body .actions-place {
+    flex-direction: column;
+    padding: 0 25px
+}
+
+body .actions-place .custom-rounded-btn, body .actions-place .custom-rounded-file {
+    margin-bottom: 25px
+}
+
+body .actions-place .download-template-file {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    color: #5c3cc0;
+    text-decoration: underline
+}
+
+body .custom-rounded-btn {
+    height: 50px;
+    border-radius: 43px;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    padding: .775rem .75rem
+}
+
+body .custom-rounded-btn:focus {
+    border-color: #8dc899;
+    box-shadow: 0 0 0 .2rem rgba(141, 200, 153, .25)
+}
+
+body .custom-rounded-btn.purple {
+    background: #5c3cc0;
+    color: #fff
+}
+
+body .custom-rounded-btn.purple:hover {
+    background: #453184 !important
+}
+
+body .custom-rounded-btn.purple-line {
+    border: 2px solid #5c3cc0;
+    background-color: transparent;
+    color: #5c3cc0
+}
+
+body .custom-rounded-btn.purple-line:hover {
+    background-color: #5c3cc0;
+    color: #fff
+}
+
+body .custom-rounded-btn.light-purple {
+    background: rgba(155, 141, 242, .31);
+    color: #fff
+}
+
+body .custom-rounded-btn.light-purple:hover {
+    background: #5c3cc0 !important
+}
+
+body .custom-rounded-btn.grey-line {
+    border: 2px solid rgba(157, 157, 177, .31)
+}
+
+body .custom-rounded-btn.grey-line:hover {
+    background: #9d9db1
+}
+
+body .custom-rounded-btn.green {
+    background: #60996c;
+    color: #fff;
+    border: none
+}
+
+body .custom-rounded-btn.green:hover {
+    background: #3b6b45 !important
+}
+
+body .custom-rounded-btn.light-green {
+    background: #8dc899;
+    color: #fff;
+    border: none
+}
+
+body .custom-rounded-btn.light-green:hover {
+    background: #60996c
+}
+
+body .custom-rounded-btn.light-red {
+    background: #f95e5e;
+    color: #fff;
+    border: none
+}
+
+body .custom-rounded-btn.light-red:hover {
+    background: #d22424
+}
+
+body .custom-rounded-btn.green-line {
+    border: 2px solid #60996c;
+    background-color: transparent;
+    color: #60996c
+}
+
+body .custom-rounded-btn.green-line:hover {
+    background-color: #60996c;
+    color: #fff
+}
+
+body .custom-rounded-btn.grey-line {
+    border: 2px solid #9d9db1;
+    background-color: transparent;
+    color: #9d9db1
+}
+
+body .custom-rounded-btn.grey-line:hover {
+    background-color: #9d9db1;
+    color: #fff
+}
+
+body .custom-rounded-btn:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 .2rem rgba(141, 200, 153, .5)
+}
+
+body .custom-rounded-btn:not(:disabled):not(.disabled):active {
+    background: #453184
+}
+
+.custom-rounded-btn {
+    min-width: 175px;
+    height: 46px;
+    padding: .605rem .75rem;
+    margin: 0 15px
+}
+
+.filtered-dates__item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+body .filtered-dates__date {
+    font-size: 15px;
+    color: #676767;
+    font-weight: 800;
+    margin-right: 10px
+}
+
+@media (max-width: 768px) {
+    body .filtered-dates__date {
+        display: block
+    }
+}
+
+.filtered-dates__item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+body .filtered-dates__date {
+    font-size: 15px;
+    color: #676767;
+    font-weight: 800;
+    margin-right: 10px;
+    display: block;
+}
+
+.filtered-dates .time-range-from {
+    display: inline-block !important;
+    max-width: 48% !important;
+}
+
+.filtered-dates .time-range:first-child {
+    margin-right: 3% !important;
+}
+
+.filtered-dates .dropdown.bootstrap-select {
+    width: 100% !important;
+}
+
+@media (max-width: 768px) {
+    body .filtered-dates__date {
+        display: block
+    }
+}
+
+.chat .chat-history .bank-receipt::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -17px;
+    top: 0px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #9c8cf1 transparent transparent transparent;
+    border-radius: 5px;
+}
+
+.videocall-custom-modal .modal-body {
+    background-color: #8dc899;
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px)
+}
+
+.videocall-custom-modal .modal-dialog {
+    max-width: 300px;
+    margin: 1.75rem auto
+}
+
+.videocall-custom-modal .modal-footer {
+    justify-content: center;
+    padding: 1.25rem;
+    flex-direction: column
+}
+
+.videocall-custom-modal .modal-user-info {
+    font-size: 1.1rem;
+    font-weight: 600
+}
+
+.videocall-custom-modal .footer-buttons {
+    padding-top: 15px
+}
+
+.videocall-custom-modal .footer-buttons .btn-danger, .videocall-custom-modal .footer-buttons .btn-success {
+    border-radius: 30px;
+    margin: 0 5px;
+    padding-left: 15px;
+    padding-right: 15px
+}

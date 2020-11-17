@@ -1,0 +1,60 @@
+
+.overlay.hidden {
+    display: none;
+}
+.overlay {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.overlay > div {
+    background-color: #3498db;
+    height:10%;
+    width: 6px;
+    display: inline-block;
+    margin-top: 20%;
+    -webkit-animation: shkh-stretch1 1.2s infinite ease-in-out;
+    animation: shkh-stretch1 1.2s infinite ease-in-out;
+}
+
+.overlay .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    height:10%;
+}
+
+.overlay .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    height:10%;
+}
+
+.overlay .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    height:10%;
+}
+
+.overlay .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+    height:10%;
+}
+
+@-webkit-keyframes shkh-stretch1 {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes shkh-stretch1 {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}

@@ -1,0 +1,165 @@
+.mobile-chat {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.mobile-chat-infoBar {
+    background-color: #f5f5fb;
+}
+
+.mobile-info-chat {
+    height: 320px !important;
+}
+
+.mobile-back-btn {
+    border: none;
+    background: transparent;
+    color: black;
+    margin: 12px;
+}
+
+.mobile-back-btn:hover {
+   color: black;
+}
+
+.mobile-back-btn:focus {
+    border: none;
+    outline: none;
+}
+
+#documents {
+    overflow-x: hidden;
+}
+
+.mobile-orders-modal {
+    padding: 20px !important;
+    margin: 0 auto;
+}
+
+.mobile-user-name {
+    display: inline-block;
+    margin: 0 !important;
+}
+
+.mobile-more-options {
+    display: inline-block;
+    float: right;
+}
+
+.mobile-more-options img {
+    margin-top: -15px;
+}
+
+.dropdown-menu.mobile-dropdown-menu.show {
+    top: -15px !important;
+}
+
+.mobile-chat-footer {
+     position: fixed;
+}
+
+.chat .chat-message .mobile-textarea {
+    font-size: 12px;
+}
+
+.mobile-invoice {
+    height: 530px;
+}
+
+.mobile-invoice-body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .new-invoice .invoice-body .invoice-total .mobile-pound {
+        right: 173px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-total {
+        margin-left: 36px;
+    }
+    .new-invoice .invoice-body .mobile-send-btn {
+        top: 110px;
+        right: -562px;
+
+    }
+    .new-invoice .invoice-body .invoice-tax {
+        float: right;
+        top: 6px;
+        right: -446px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-final-total {
+        left: 448px;
+    }
+}
+
+@media (max-width: 576px) {
+    .new-invoice .invoice-body .fixed-Cost .mobile-pound, .new-invoice .invoice-body .Amount .mobile-pound {
+        right: 72px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-total {
+        margin-left: 28px;
+    }
+    .new-invoice .invoice-body .invoice-total .mobile-pound {
+        right: 100px;
+    }
+    .new-invoice .invoice-body .custom-input, .new-invoice .invoice-body .mobile-type-custom {
+        width: 330px;
+    }
+    .new-invoice .invoice-body .mobile-fixed-cost, .new-invoice .invoice-body .mobile-amount,
+    .new-invoice .invoice-body .mobile-total, .new-invoice .invoice-body .invoice-final-total .mobile-final-total {
+        width: 70px;
+        padding-left: 21px;
+    }
+    .new-invoice .invoice-body .invoice-tax .mobile-tax {
+        width: 48px;
+        margin-left: 10px;
+    }
+    .new-invoice .invoice-body .mobile-send-btn {
+        top: 100px;
+        right: -430px;
+    }
+    .new-invoice .invoice-body .invoice-tax {
+        right: -332px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-final-total {
+        left: 344px;
+    }
+}
+@media (max-width: 320px) {
+    .new-invoice .invoice-body .custom-input, .new-invoice .invoice-body .mobile-type-custom {
+        width: 150px;
+    }
+    .new-invoice .invoice-body .fixed-Cost .mobile-pound, .new-invoice .invoice-body .Amount .mobile-pound {
+        right: 30px;
+    }
+    .mobile-fixed-cost-div {
+        margin-left: -48px;
+    }
+    .mobile-amount-div {
+        margin-left: 20px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-total {
+        margin-left: -20px;
+    }
+    .new-invoice .invoice-body .invoice-total .mobile-pound {
+        right: 114px;
+        top: 42px;
+    }
+    .new-invoice .invoice-body .mobile-send-btn {
+        top: 35px;
+        right: -225px;
+        width: 18%;
+        font-size: 13px;
+    }
+    .new-invoice .invoice-body .invoice-tax {
+        right: -35px;
+    }
+    .new-invoice .invoice-body .mobile-invoice-final-total {
+        left: 50px;
+    }
+
+}
+

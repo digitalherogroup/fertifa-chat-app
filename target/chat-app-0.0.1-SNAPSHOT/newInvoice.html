@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice </title>
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div class="message my-message receipt-background">
+    <div class="bank-receipt" id="new-invoice">
+        <div class="receipt-container">
+
+            <div class="receipt-top">
+                <img src="/invoice/invoiceBackground.png" alt="">
+            </div>
+            <div class="receipt-content">
+                <h1 class="receipt-title">Receipt from Fertifa.com</h1>
+                <div class="receipt-status pending">
+                    <img src="/img/pending-colored.png" alt="">
+                    <span class="status-name">PENDING</span>
+                </div>
+                <div class="receipt-status approved">
+                    <img src="/img/approved-colored.png" alt="">
+                    <span class="status-name">APPROVED</span>
+                </div>
+                <div class="receipt-status paid">
+                    <img src="/img/paid-colored.png" alt="">
+                    <span class="status-name">PAID</span>
+                </div>
+
+                <div class="receipt-status declined">
+                    <img src="/img/decline-colored.png" alt="">
+                    <span class="status-name">DECLINED</span>
+                </div>
+
+
+                <div class="receipt-summary">
+                    <p class="summary-name">SUMMARY</p>
+                    <div class="summary-block">
+                        <div class="summary-line">
+                            <div class="summary-line-name">Hypnotherapist</div>
+                            <div class="summary-line-hours">11:00</div>
+                            <div class="summary-line-price">$388</div>
+                        </div>
+                        <div class="summary-line">
+                            <div class="summary-line-name">Hypnotherapist</div>
+                            <div class="summary-line-hours">11:00</div>
+                            <div class="summary-line-price">$388</div>
+                        </div>
+                        <div class="summary-line total">
+                            <div class="summary-line-name">Total</div>
+                            <div class="summary-line-hours"></div>
+                            <div class="summary-line-price">$388</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="receipt-helper">
+                    If you have any questions, contact us at <a href="mailto:help@fertifa.com">help@fertifa.com</a>
+                </div>
+                <div class="receipt-receiving-part">
+                    You made a purchase at Fertifa.com, which partners with <a href="http://www.Stripe.com" target="_blank">Stripe</a>
+                    to provide invoicing and payment processing.
+                </div>
+                <div class="receipt-receiving-pay">
+                    <button class="btn receipt-status-button green">PAY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="receipt-footer">
+            2020 © Fertifa Limited. All rights reserved
+        </div>
+    </div>
+</div>
+</body>
+</html>
